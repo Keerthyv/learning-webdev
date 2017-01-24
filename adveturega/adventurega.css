@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 40px;
+    font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #333;
+    height: 40px;
+    border-bottom: darkgrey solid 1px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 110;
+    font-size: 13px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.nav-header {
+    margin: 0;
+    float: left;
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+#nav-links {
+    margin: 0;
+    float: right;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+#nav-links li {
+    display: inline;
+    padding: 15px 10px;
+}
+
+.link a,
+.nav-header a {
+    text-decoration: none;
+    color: darkgrey;
+    text-transform: uppercase;
+}
+
+header {
+    min-height: 100%;
+    width: 100%;
+    background-image: url("images/header.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+    display: block;
+}
+
+.site-header {
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#header-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+#header-content .title {
+    margin: 0 auto;
+    font-size: 65px;
+    text-transform: uppercase;
+    text-align: center;
+    /*font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;*/
+}
+
+#hr-filler {
+    width: 0;
+    margin: 0;
+    color: transparent;
+}
+
+.separator {
+    margin: 30px auto;
+    max-width: 50px;
+    border-color: red;
+    border-top: 0;
+    border-bottom-width: 3px;
+}
+
+.caption {
+    margin: 0 auto 50px auto;
+    font-size: 18px;
+    max-width: 80%;
+}
+
+#header-content>a {
+    text-decoration: none;
+    background-color: #f05f40;
+    border-radius: 25px;
+    padding: 15px;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 14px;
+}
+
+#about {
+    background-color: #f05f40;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about-content {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.heading {
+    margin: 0;
+    padding: 30px;
+    font-size: 28px;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: normal;
+}
+
+#about .separator {
+    color: white;
+    max-width: 50px;
+    border: white solid 2px;
+    margin: 10px auto;
+}
+
+.text {
+    line-height: 1.5em;
+    font-size: 15px;
+}
+
+#about .text {
+    max-width: 76%;
+    margin: 30px auto;
+    line-height: 1.5em;
+    font-size: 16px;
+}
+
+button {
+    background-color: white;
+    border: 0;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+#services {
+    background-color: white;
+    padding-top: 80px;
+    height: 500px;
+    text-align: center;
+}
+
+#services .separator {
+    max-width: 50px;
+    margin: 0 auto;
+    border-color: red;
+    border-top: 0;
+    border-bottom-width: 3px;
+}
+
+#services .items {
+    max-width: 20%;
+    max-height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.icon-size {
+    margin: 20px 0 10px 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: #f05f40;
+}
+
+.name {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#services .items .text {
+    color: #777;
+    padding: 0 30px;
+}
+
+#portfolio {
+    max-width: 100%;
+    background: #333;
+    min-height: 380px;
+    color: white;
+    text-align: center;
+}
+
+.portfolio-item {
+    display: table-cell;
+}
+
+#portfolio img {
+    max-width: 100%;
+}
+
+#contact {
+    padding: 50px 50px 80px 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#contact .heading {
+    padding: 50px 0 0 0;
+}
+
+#contact .separator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contact .text {
+    color: #333;
+    max-width: 73%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#contact .items {
+    width: 33.33333333333%;
+    display: inline-block;
+}
+
+#phone-no,
+#email {
+    margin: 0;
+}
+
+#contact .items .icon-size {
+    margin-bottom: 0;
+}

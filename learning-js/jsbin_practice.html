@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by Keerthyv (http://jsbin.com/dapizaq/54/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  
+<script id="jsbin-javascript">
+//Exercises
+
+
+/* let a = '1' + 2 + 3;
+console.log(a); */
+
+//let counter = 1;
+//let b = counter++;
+//let a = ++counter;
+//console.log(a, b);
+
+/* let a = 10;
+a %= 3;
+console.log(a); */
+
+// let age = prompt("Enter your age", 0);
+// console.log(`Age: ${age}`);
+
+//let userName = prompt("Enter your name..");
+  //  alert(`Your name is ${userName}`);
+
+
+//let scriptName = prompt("What is the 'official' name of Javascript?");
+//(scriptName == "ECMAScript") ? alert("Right!") :
+  //  alert("Didn't know? ECMAScript!");
+
+/* let value = prompt("Input some number..");
+if (value > 0) {
+  alert(1);
+} else if (value < 0) {
+    alert(-1);
+}  else {
+    alert(0);
+} */
+
+let loginName = prompt("Enter login name", "login");
+if (loginName == "Admin") {
+  let password = prompt("Enter your password", "password");
+  if (password == "TheMaster") {
+    alert("Welcome!");
+  } else if (password == null) {
+    alert("Cancelled");
+  } else if (password == "") {
+    alert("Cancelled");
+  } else {
+    alert("Wrong password");
+  }
+} else if (loginName == null) {
+  alert("Cancelled");
+} else if (loginName == "") {
+  alert("Cancelled");
+} else {
+  alert("I don't know you");
+}
+
+
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,21 +1,25 @@
 let ladder = {
     step: 0,
-    up: function up() {
+    up() {
         this.step++;
+        return this;
     },
-    down: function down() {
+    down() {
         this.step--;
+        return this;
     },
     showStep: function() { // shows the current step
-        alert(this.step);
+        console.log(this.step);
+        return this;
     }
 };
 
-ladder.up();
-console.log(ladder.step);
-ladder.up();
-console.log(ladder.step);
-ladder.up();
-console.log(ladder.step);
-ladder.down();
-console.log(ladder.step);
+ladder
+    .down()
+    .up()
+    .up()
+    .down()
+    .down()
+    .showStep();
+
+console.log(ladder);

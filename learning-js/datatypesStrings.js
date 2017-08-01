@@ -39,4 +39,9 @@ function extractCurrencyValue(string) {
     return +string.slice(1);
 }
 
-console.log(extractCurrencyValue("$120"));
+//console.log(extractCurrencyValue("$120"));
+
+// Testing string methods
+
+let word = "abcdefghijkl";
+console.log(word.slice(2));

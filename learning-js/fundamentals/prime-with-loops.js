@@ -1,5 +1,6 @@
-let upperLimit = 1000;
+let upperLimit = 2100;
 let counter = 0;
+//let lowerLimit = 100000;
 
 outer: for (let i = 2; i <= upperLimit; i++) {
     for (j = 1; j <= i; j++) {
@@ -16,5 +17,9 @@ outer: for (let i = 2; i <= upperLimit; i++) {
             }
         }
     }
+    // if (counter === 409) {
+    //     console.log(`The required prime is: ${i}`);
+    //     break;
+    // }
 }
 console.log(`number of primes below ${upperLimit} are ${counter}`);

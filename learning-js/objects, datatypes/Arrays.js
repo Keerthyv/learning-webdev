@@ -11,6 +11,7 @@ styles.push("Rock-n-Roll");
 midValue = Math.round(styles.length / 2) - 1;
 //console.log(midValue);
 styles[midValue] = "Classics";
+
 //console.log(styles);
 
 //console.log(styles.shift());
